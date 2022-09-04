@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+nav {
+  width: 100vw;
+  height: 3em;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px black solid;
+}
+
+nav h2 {
+  margin-left: 1em;
+}
+
+table {
+  margin: 1em;
+}
+
+td {
+  padding: 0 1em;
+}
