@@ -9,28 +9,25 @@ body {
   width: 100vw;
 
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
-nav {
-  width: 100vw;
-  height: 3em;
-  /* background-color: antiquewhite; */
-  display: flex;
-  align-items: center;
-  border-bottom: 1px black solid;
+td,
+table,
+th {
+  border: 1px solid rgb(207, 176, 241);
+  border-collapse: collapse;
 }
 
-nav h2 {
-  margin-left: 1em;
-}
-
-table {
-  margin: 1em;
+th {
+  color: white;
+  background-color: rgb(170, 120, 226);
+  padding: 1em 1.5em;
+  font-weight: 500;
 }
 
 td {
-  padding: 0 1em;
+  padding: 1em 1.5em;
 }
